@@ -18,3 +18,12 @@ Universal file viewer with several built-in web protocols. Due to the open-sourc
 [] WebM: .webm <br>
 [Ø] MPEG: .mp4 <br>
 ~2027-11-29 <br>
+
+## Image
+
+[] JPEG: .jpeg <br>
+[] PNG: .png <br>
+[] WEBP: .webp <br>
+[] Bitmap: .bmp <br>
+[] AOMedia: .avif
+[] Gif: .gif <br>
