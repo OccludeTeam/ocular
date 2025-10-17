@@ -10,4 +10,4 @@
                   - name: Ping Supabase
                     run: |
                       curl -X GET "https://xaurbfygscqijzbhagcn.supabase.co/rest/v1/dummyTable?select=id&limit=1" \
-                           -H "apikey: ${{ vars.SUPABASEPUBKEY }}"
+                           -H "apikey: sb_publishable_Czj1yoTltZ5FPfJwM1BazA_ZJ7SVQdc"
