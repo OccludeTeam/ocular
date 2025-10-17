@@ -1,0 +1,13 @@
+            name: prevent supabase inactivity
+            on:
+              schedule:
+                - cron: '0 0 * * 0' # Runs every Sunday at midnight UTC
+              workflow_dispatch: # Allows manual triggering
+            jobs:
+              ping:
+                runs-on: ubuntu-latest
+                steps:
+                  - name: Ping Supabase
+                    run: |
+                      curl -X GET "https://xaurbfygscqijzbhagcn.supabase.co/rest/v1/dummyTable?select=id&limit=1" \
+                           -H "apikey: ${{ vars.SUPABASEPUBKEY }}"
